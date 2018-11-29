@@ -1,16 +1,10 @@
-const legs = 4;
-const tops = 1;
+import React from 'react';
 
-const all = {
-  legs,
-  tops,
-}
-
-export const getLegs = () => legs;
-export const getTops = () => tops;
-export const getAll = () => all;
-
-const allAndThenSome = {
-  ...all,
-  thenSome: 'some',
-}
+export default () => (
+  <div className="table">
+    <p className="leg">leg</p>
+    <p className="leg">leg</p>
+    <p className="leg">leg</p>
+    <p className="leg">leg</p>
+  </div>
+)
